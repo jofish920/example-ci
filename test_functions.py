@@ -1,4 +1,4 @@
-from functions import add, subtract
+from functions import add, subtract, multiply
 
 
 # add the following imports in step 11
@@ -13,6 +13,10 @@ def test_add():
 
 def test_subtract():
     assert subtract(2, 3) == -1
+
+
+def test_multiply():
+    assert multiply(7, 8) == 56
 
 
 # uncomment the following test in step 11
