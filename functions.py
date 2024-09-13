@@ -1,3 +1,6 @@
+ABSOLUTE_0_IN_FAHRENHEIT = -459.67
+
+
 def add(a, b):
     return a + b
 
@@ -11,4 +14,5 @@ def multiply(a, b):
 
 
 def convert_fahrenheit_to_celsius(fahrenheit):
-    return multiply(subtract(fahrenheit, 32), 9 / 5)   # <-- Fix this in step 7
+    assert fahrenheit >= ABSOLUTE_0_IN_FAHRENHEIT
+    return multiply(subtract(fahrenheit, 32), 5 / 9)
