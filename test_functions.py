@@ -1,7 +1,5 @@
-from functions import add
+from functions import add, subtract
 
-# replace the import from functions with the line below in step 5:
-#  from functions import add, subtract, multiply
 
 # add the following imports in step 11
 #  from functions import convert_fahrenheit_to_celsius as f2c
@@ -13,9 +11,8 @@ def test_add():
     assert add('space', 'ship') == 'spaceship'
 
 
-# uncomment the following test in step 5
-# def test_subtract():
-#    assert subtract(2, 3) == -1
+def test_subtract():
+    assert subtract(2, 3) == -1
 
 
 # uncomment the following test in step 11
