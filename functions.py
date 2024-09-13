@@ -3,7 +3,7 @@ def add(a, b):
 
 
 def subtract(a, b):
-    return a + b  # <--- fix this in step 7
+    return a - b
 
 
 def multiply(a, b):
